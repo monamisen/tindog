@@ -287,6 +287,10 @@ p {
       font-size: 1.5rem;
   }
 
+  p {
+    font-size: 0.75rem;
+  }
+
   .download-button {
       margin: 10px 0 0 0;
 }
