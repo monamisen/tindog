@@ -234,10 +234,11 @@ p {
 #hero-banner {
       text-align: center;
   }
-    
+
   .iphone {
       position: static;
       transform: rotate(0);
+      padding: 30px;
   }
 
   .cta-download-button {
@@ -268,5 +269,30 @@ p {
       padding: 0 3%;
   }
 
-
 }
+
+@media (max-width: 462px) {
+
+  h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+      font-weight: bold;
+  }
+
+  h3 {
+      font-size: 1.5rem;
+  }
+
+  .download-button {
+      margin: 10px 0 0 0;
+}
+
+  .carousel-item h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+  }
