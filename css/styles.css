@@ -4,20 +4,21 @@ body {
 
 h1 {
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    line-height: 3.5rem;
+    line-height: 3rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 p {
@@ -91,7 +92,6 @@ p {
 .features-table-head {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    line-height: 2rem;
     color: rgb(68, 67, 67);
     padding: 2rem 0 0 0;
 }
