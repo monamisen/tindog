@@ -155,8 +155,12 @@ p {
 }
 
 .card-header {
-    font-weight: 900;
     background-color: #FFE8E8;
+}
+
+.card-header h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .card-body {
@@ -214,6 +218,8 @@ p {
     text-decoration: none;
 }
 
+/************************************************max-width: 996px **************************************************/
+
 @media (max-width: 996px) {
 
   h1 {
@@ -253,6 +259,14 @@ p {
       margin: 0 0 5% 0;
   }
 
+  .card-body {
+    padding:5% 5% 10% 5%;
+  }
+
+  .card-body-text {
+    padding:2%;
+  }
+
   .testimonial-image {
       width: 20%;
   }
@@ -265,11 +279,21 @@ p {
       font-size: 2.5rem;
   }
 
+  #pricing {
+      padding: 15% 10%;
+  }
+
+  .press-img {
+    width: 20%;
+  }
+
   .social-media {
       padding: 0 3%;
   }
 
 }
+
+/************************************************max-width: 462px **************************************************/
 
 @media (max-width: 462px) {
 
@@ -291,12 +315,27 @@ p {
     font-size: 0.75rem;
   }
 
+  .container-fluid {
+    padding: 2% 10%;
+  }
+
   .download-button {
       margin: 10px 0 0 0;
-}
+  }
 
   .carousel-item h2{
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2rem;
   }
+
+  .press-img {
+    width: 30%;
+  }
+
+  #cta {
+      padding: 10% 5%;
+    }
+
+
+}
